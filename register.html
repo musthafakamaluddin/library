@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Register - Brary</title>
+    <style>
+        .form-control {
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 mt-5">
+                <h2 class="text-center mb-3">Register</h2>
+                <form action="">
+                    <h5>Data Diri</h5>
+                    <hr size="4%" color="black" />
+                    <div class="form-group mb-2">
+                        <div class="d-flex">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="username" placeholder="Nama Depan">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="username" placeholder="Nama Belakang">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-2">
+                        <select class="form-select form-control" id="inputGroupSelect02">
+                            <option selected>--Pekerjaan--</option>
+                            <option value="karyawan">Karyawan</option>
+                            <option value="dosen">Dosen</option>
+                            <option value="mahasiswa">Mahasiswa</option>
+                            <option value="lainnya">Lainnya</option>
+                        </select>
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="text" class="form-control" id="handphone" pattern="[0-9]" placeholder="No. Handphone">
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="text" class="form-control" id="alamat" placeholder="Alamat">
+                    </div>
+
+                    <form action="">
+                        <h5 class="mt-4">Akun</h5>
+                        <hr size="4%" color="black" />
+                        <div class="form-group mb-2">
+                            <input type="text" class="form-control" id="username" placeholder="Username">
+                        </div>
+                        <div class="form-group mb-2">
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group mb-2">
+                            <input type="password" class="form-control" id="confirm-password"
+                                placeholder="Confirm Password">
+                        </div>
+                    </form>
+                    <div class="d-flex justify-content-end">
+                        <p style="font-weight: 300; font-size: 10pt;"><a href="">Sign in</a></p>
+                        <button type="submit" class="btn btn-dark btn-submit ms-2"
+                            style="border-radius: 30px; width: 30%;">Daftar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
