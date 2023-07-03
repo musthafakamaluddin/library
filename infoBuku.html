@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Pinjam - Brary</title>
+    <title>Info Buku - Brary</title>
 </head>
 
 <body>
@@ -35,9 +35,6 @@
                                 <a class="nav-link" href="buku.html">Buku</a>
                             </li>
                             <li class="nav-item ps-3">
-                                <a class="nav-link" href="pinjam.html">Pinjam</a>
-                            </li>
-                            <li class="nav-item ps-3">
                                 <a class="nav-link" href="riwayat.html">Riwayat</a>
                             </li>
                         </ul>
@@ -56,70 +53,79 @@
     </header>
     <!-- End Header -->
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero">
-        <div class="container position-relative">
-            <div class="row">
-                <div class="col-md-6 d-flex align-items-center">
-                    <div class="">
-                        <h1>Brary</h1>
-                        <h4>Tempat kamu menemukan buku <br> yang sesuai dengan kebutuhanmu</h4>
-                        <button type="button" class="btn btn-dark">Explore Now</button>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div id="carouselExampleIndicators" class="carousel slide">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/img-login.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/img-login.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/img-login.jpg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- End Hero -->
-
-    <!-- Main Section -->
     <section id="main" class="main">
-        <div class="container">
-            <div class="row">
-                <h3>Pinjam</h3>
-                <hr>
-                <p>BELUM ADA ISINYA</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatem beatae vel. Nisi,
-                    expedita! Atque, quaerat explicabo. Sapiente, pariatur praesentium.</p>
+        <div class="container" style="padding-top: 150px; padding-bottom: 100px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="img/cover1.png" class="card-img-right my-3" width="400" height="400" alt="...">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h1 class="card-title" style="font-size: 50pt;"><b>Psychic Psalms</b></h1>
+                            <hr size="5%" color="black">
+                            <div class="row">
+                                <p class="card-text fs-5 lh-lg col-6">
+                                    <b>
+                                        Pengarang : <br />
+                                        Jumlah Halaman : <br />
+                                        Deskripsi :
+                                    </b>
+                                </p>
+                                <p class="card-text fs-5 text-end lh-lg col-6">
+                                    Ahmad Bayhaqi <br />
+                                    119 halaman <br />
+                                </p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                    and
+                                    scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-lg btn-dark w-100" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                PINJAM
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <!-- Isi Canvas & Form Tanggal -->
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-success">Understood</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+        </div>
+        </div>
+        <div class="col-8">
+            <br>
+        </div>
+        </div>
         </div>
     </section>
-    <!-- End Main  -->
 
     <!-- Footer Section -->
     <footer id="footer">
